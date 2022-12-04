@@ -5,6 +5,7 @@ local Window = Library.CreateLib("Kingdom life II GUI", "Sentinel")
 local Tab = Window:NewTab("Gamepass weaps")
 local weap = Tab:NewSection("Premium")
 local clothes = Window:NewTab("Other")
+local eastern = Tab:NewSection("Eastern Weapons")
 
 weap:NewButton("Remove Tools", "Removes your tools.", function()
     for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do
@@ -238,7 +239,109 @@ local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Premi
 
 workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
 end)
+eastern:NewButton("Chokuto", "eastern", function()
 
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Chokuto
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Claw blades", "eastern", function()
+ 
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons["Claw Blades"]
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Devastator", "eastern", function()
+    
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Devastator
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Gendaito", "eastern", function()
+    
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Gendaito
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Katana", "eastern", function()
+    
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Katana
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Naginata", "Eastern", function()
+    
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Naginata
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Nodachi", "Eastern", function()
+   
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Nodachi
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Odachi", "Eastern", function()
+    
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Odachi
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Sai", "Eastern", function()
+   
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Sai
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Shinsakuto", "Eastern", function()
+    
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Shinsakuto
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Steel Claws", "Eastern", function()
+ 
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons["Steel Claws"]
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Tsurugi", "Eastern", function()
+
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Tsurugi
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
+eastern:NewButton("Wakizashi", "Eastern", function()
+   
+
+local ohString1 = "GetWeapon"
+local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Eastern.Weapons.Wakizashi
+
+workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
+end)
 weap:NewKeybind("Toggle ui off and on", "Press left alt", Enum.KeyCode.LeftAlt, function()
 	Library:ToggleUI()
 end)
