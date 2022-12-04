@@ -2,6 +2,7 @@
 Features:
 
 - Premium Gamepass weapons for free
+- Eastern Gamepass weapons for free
 
 Features Coming Soon:
 
