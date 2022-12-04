@@ -6,6 +6,13 @@ local Tab = Window:NewTab("Gamepass weaps")
 local weap = Tab:NewSection("Premium")
 local clothes = Window:NewTab("Other")
 
+weap:NewButton("Remove Tools", "Removes your tools.", function()
+    for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do
+		if v.ClassName == "Tool" or "HopperBin" then
+			v:Destroy()
+		end
+	end
+end)
 weap:NewButton("Bow", "Bow from premium pass", function()
 
 local ohString1 = "GetWeapon"
