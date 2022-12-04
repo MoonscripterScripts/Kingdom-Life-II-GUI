@@ -1,7 +1,7 @@
 # Repository for my Kingdom Life II GUI
 Features:
 
-- Premium Gamepasses weapons for free
+- Premium Gamepass weapons for free
 
 Features Coming Soon:
 
