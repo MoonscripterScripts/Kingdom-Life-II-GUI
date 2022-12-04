@@ -5,7 +5,7 @@ Features:
 
 Features Coming Soon:
 
-- Clear tools 
+- Clear tools (Added)
 
 - Weapons from other gamepasses as well as clothes (if i manage to do it)
 
