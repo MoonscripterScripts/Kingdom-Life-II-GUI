@@ -12,4 +12,3 @@ Features Coming Soon:
 
 -  Donor gamepass (idk if possible since havent tried yet but ye)
 
-Also if you want you can contribute to it and it will maybe get into the script!, fork the repository and edit the script.
