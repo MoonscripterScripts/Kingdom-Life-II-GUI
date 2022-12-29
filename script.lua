@@ -8,11 +8,9 @@ local clothes = Window:NewTab("Other")
 local eastern = Tab:NewSection("Eastern Weapons")
 
 weap:NewButton("Remove Tools", "Removes your tools.", function()
-    for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do
-		if v.ClassName == "Tool" or "HopperBin" then
-			v:Destroy()
-		end
-	end
+local ohString1 = "ClearWeapons"
+
+workspace.Replication.RemoteEvent:FireServer(ohString1)
 end)
 weap:NewButton("Bow", "Bow from premium pass", function()
 
@@ -76,7 +74,7 @@ local ohInstance2 = game:GetService("ReplicatedStorage").Assets.Gamepasses.Premi
 
 workspace.Replication.RemoteEvent:FireServer(ohString1, ohInstance2)
 end)
-weap:NewButton("Batlle hammer", "premium", function()
+weap:NewButton("Battle hammer", "premium", function()
     
 
 local ohString1 = "GetWeapon"
