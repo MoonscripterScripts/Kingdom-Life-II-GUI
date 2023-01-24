@@ -1,14 +1,16 @@
-# Repository for my Kingdom Life II GUI
-Features:
+# Kingdom Life II GUI - Main Branch
 
+Welcome to the main branch of the Kingdom Life II GUI repository. This branch contains the stable and fully operational features for the Kingdom Life II GUI.
+
+## Features
 - Premium Gamepass weapons for free
 - Eastern Gamepass weapons for free
+- Clear tools 
 
-Features Coming Soon:
+## Contributing
+We welcome contributions to the main branch. If you're interested in contributing, please open a pull request and we'll review it as soon as possible.
 
-- Clear tools (Added)
+## Support
+If you have any issues or questions, please open an issue in this repository and we'll do our best to help you.
 
-- Weapons from other gamepasses as well as clothes (if i manage to do it)
-
--  Donor gamepass (idk if possible since havent tried yet but ye)
-
+Thank you for using the Kingdom Life II GUI - Main Branch.
