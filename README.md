@@ -3,8 +3,19 @@
 Welcome to the experimental branch of the Kingdom Life II GUI repository. This branch contains the newest and most innovative features that are currently being tested and improved.
 
 ## Features
-- Premium Gamepass weapons for free
-- Eastern Gamepass weapons for free
+- Premium Gamepass weapons for free:
+    - Bow
+    - Sword & Shield
+    - Voulge
+    - Warhammer
+    - Wrecking Mace
+    - Zweihander
+    - Arming Sword
+    - Bardiche
+    - Battle Hammer
+    - Battleaxe
+    - Billhook
+- Eastern Gamepass weapons for free (Main Branch Only!)
 
 ## Features Coming Soon
 - Clear tools (Added)
