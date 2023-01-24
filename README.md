@@ -1,14 +1,22 @@
-# Repository for my Kingdom Life II GUI
-Features:
+# Kingdom Life II GUI - Experimental Branch
 
+Welcome to the experimental branch of the Kingdom Life II GUI repository. This branch contains the newest and most innovative features that are currently being tested and improved.
+
+## Features
 - Premium Gamepass weapons for free
 - Eastern Gamepass weapons for free
 
-Features Coming Soon:
-
+## Features Coming Soon
 - Clear tools (Added)
+- Weapons from other gamepasses as well as clothes (if possible)
+- Donor gamepass (if possible)
 
-- Weapons from other gamepasses as well as clothes (if i manage to do it)
+Please note that this branch is experimental and its functionality may not be fully operational. It is recommended that you use the main branch for a more stable experience.
 
--  Donor gamepass (idk if possible since havent tried yet but ye)
+## Contributing
+We welcome contributions to the experimental branch. If you're interested in contributing, please open a pull request and we'll review it as soon as possible.
 
+## Support
+If you have any issues or questions, please open an issue in this repository and we'll do our best to help you.
+
+Thank you for using the Kingdom Life II GUI - Experimental Branch.
